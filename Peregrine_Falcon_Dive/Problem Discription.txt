@@ -1,0 +1,10 @@
+When diving for the prey, the Peregrine falcon can reach speeds upto 350 kmph. As the falcon dives, the two forces acting on it are gravity and air draig. The equation of motion for this is attached in the simulink model.
+
+As the falcon approaches the ground, however, it changes the angle of its wings, increasing drag, to rapidly decelerate to a safe landing speed. This can be modeled by a change in the area, A, and drag coefficient, Cd.
+
+The falcon opens its wings when it semses that it is near the ground. Let this occurs at heiht of 15 meters. That is:
+
+Case 1: If height is greater than or equal to 15 meters, the falcon will dive without opening its wings, so it will fall with greater speed, because area on which drag force acts, will be less (only, its body area will be counted in this case), and since flacon also change the angle of this wing below 15 meters height, so let the drag coefficient in this case is Cd1.
+
+
+Case 2: If height is less than 15 meters from ground, it will fully open its wings, increasing the area. Also, drag coefficient will change to Cd2.
